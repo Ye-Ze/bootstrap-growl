@@ -13,7 +13,7 @@
     }
     if (options.allow_dismiss) {
       $alert.addClass("alert-dismissible");
-      $alert.append("<button  class=\"close\" data-dismiss=\"alert\" type=\"button\"><span aria-hidden=\"true\">&#215;</span><span class=\"sr-only\">Close</span></button>");
+      $alert.append("<button class=\"btn-close\" data-bs-dismiss=\"alert\" type=\"button\" aria-label=\"Close\"></button>");
     }
     $alert.append(message);
     if (options.top_offset) {
